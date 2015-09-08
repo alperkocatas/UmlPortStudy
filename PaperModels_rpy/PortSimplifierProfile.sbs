@@ -1,0 +1,30 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IProfile 
+	- _id = GUID de8279ce-08f5-4bc2-9ff0-e23e68f8b97a;
+	- _myState = 8192;
+	- _name = "PortSimplifierProfile";
+	- _modifiedTimeWeak = 4.26.2015::16:7:8;
+	- weakCGTime = 4.26.2015::16:7:8;
+	- strongCGTime = 4.26.2015::16:7:8;
+	- _defaultComposite = GUID c8cec47d-7ffc-4ca5-b37a-d012bc9f0377;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID c8cec47d-7ffc-4ca5-b37a-d012bc9f0377;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::2:0:0;
+}
+

@@ -1,0 +1,47 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "TransfRules.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "TransfRules";
+		- _id = GUID bdae2e28-f69c-49b3-948c-629cea613b26;
+	}
+	- _id = GUID 532e4154-41c9-492a-877a-fc3c56694b2f;
+	- _myState = 8192;
+	- _name = "HeavyWeight";
+	- _modifiedTimeWeak = 5.1.2015::18:38:23;
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "r1";
+			- _id = GUID a635a535-e865-454b-abb6-92ef44a4a7b6;
+		}
+	}
+	- weakCGTime = 5.1.2015::18:38:23;
+	- strongCGTime = 5.1.2015::18:30:59;
+	- _defaultComposite = GUID c4d5756a-0242-458a-8cbe-975b565b67ca;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID c4d5756a-0242-458a-8cbe-975b565b67ca;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::2:0:0;
+}
+

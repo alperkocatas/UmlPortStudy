@@ -1,0 +1,54 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID ed21212f-b1cf-4d17-9082-e09ee03a76f3;
+	- _myState = 8192;
+	- _name = "SimpleModel";
+	- _modifiedTimeWeak = 5.2.2015::12:38:38;
+	- _lastID = 9;
+	- Declaratives = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ ISubsystem 
+			- fileName = "SourceModel";
+			- _id = GUID a45f0baf-4ad7-4a4d-9623-067ab1b0c5e1;
+		}
+		{ ISubsystem 
+			- fileName = "TargetRhpDefault";
+			- _id = GUID 14b9489c-deb9-4c5b-bfe3-e5540b12da65;
+		}
+		{ ISubsystem 
+			- fileName = "TargetLightWeight";
+			- _id = GUID 21c349cd-0a34-49a1-b6d2-cbe7f0c5a692;
+		}
+		{ ISubsystem 
+			- fileName = "TargetLightWeightWithNullCheck";
+			- _id = GUID b8cde1f4-afc8-434a-b1d2-a22cae5f35e8;
+		}
+	}
+	- weakCGTime = 5.2.2015::12:38:38;
+	- strongCGTime = 5.2.2015::12:5:57;
+	- _defaultComposite = GUID 1771569e-5607-4ffb-bc67-f7b727d3187c;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 1771569e-5607-4ffb-bc67-f7b727d3187c;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 5.2.2015::12:8:33;
+			- weakCGTime = 5.2.2015::12:8:33;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 5.2.2015::12:10:13;
+}
+

@@ -1,0 +1,11 @@
+[Helpers]
+numberOfElements=1
+
+#REM: Definition of the plug-in
+name1=RhapsodySimplifier
+JavaMainClass1=com.aselsan.modeling.portsimplifier.plugin.RhapsodyPortSimplifierPlugin
+JavaClassPath1="D:\Documents\eclipse_projects\RhapsodyUmlPortGenerator\bin"
+isPlugin1=1
+isVisible1=1
+DLLServerCompatible1=1
+

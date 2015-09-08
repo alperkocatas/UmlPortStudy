@@ -1,0 +1,241 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "r1.sbs";
+		- _subsystem = "TransfRules::HeavyWeight";
+		- _class = "";
+		- _name = "r1";
+		- _id = GUID a635a535-e865-454b-abb6-92ef44a4a7b6;
+	}
+	- _id = GUID 37c9d205-1972-42e4-8ef7-4ff836716720;
+	- _myState = 8192;
+	- _name = "src";
+	- _modifiedTimeWeak = 5.1.2015::18:44:14;
+	- _lastID = 2;
+	- weakCGTime = 5.1.2015::18:44:14;
+	- strongCGTime = 5.1.2015::18:38:30;
+	- _defaultComposite = GUID 5cf9503e-0e5d-4018-ab46-e351f88dd776;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IClass 
+			- _id = GUID 5cf9503e-0e5d-4018-ab46-e351f88dd776;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b59fe915-c237-4cfe-9d10-81168ecce271;
+			- _myState = 8192;
+			- _name = "C";
+			- _modifiedTimeWeak = 5.1.2015::18:40:38;
+			- _lastID = 1;
+			- weakCGTime = 5.1.2015::18:40:38;
+			- strongCGTime = 5.1.2015::18:38:33;
+			- Ports = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPort 
+					- _id = GUID 01adc240-28b7-4419-8b85-6992b3a34f08;
+					- _myState = 8192;
+					- _name = "p";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0e6954e7-848b-478d-a8ad-adc3cf9d2809;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID 0e6954e7-848b-478d-a8ad-adc3cf9d2809;
+						- _myState = 10240;
+						- _name = "p_implicitContract";
+						- Dependencies = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IDependency 
+								- _id = GUID c9db9382-95be-4e37-84d8-716e2d07c5f2;
+								- _myState = 2048;
+								- _name = "Y";
+								- Stereotypes = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IHandle 
+										- _m2Class = "IStereotype";
+										- _filename = "PredefinedTypes.sbs";
+										- _subsystem = "PredefinedTypes";
+										- _class = "";
+										- _name = "Usage";
+										- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+									}
+								}
+								- _modifiedTimeWeak = 5.1.2015::18:40:38;
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID 68ad0838-149c-41cc-a8a1-56e856da0a32;
+								}
+							}
+						}
+						- Stereotypes = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IHandle 
+								- _m2Class = "IStereotype";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "Interface";
+								- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+							}
+						}
+						- _modifiedTimeWeak = 5.1.2015::18:40:38;
+						- weakCGTime = 5.1.2015::18:40:38;
+						- strongCGTime = 5.1.2015::18:37:54;
+						- Inheritances = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IGeneralization 
+								- _id = GUID f87a067c-a12a-4acb-ae59-23c4bcb9dfe0;
+								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _dependsOn = { INObjectHandle 
+									- _m2Class = "IClass";
+									- _id = GUID b05e4efe-3f52-49e8-8502-5fcb825bb82b;
+								}
+								- _inheritanceType = iPublic;
+								- _isVirtual = 0;
+							}
+						}
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b05e4efe-3f52-49e8-8502-5fcb825bb82b;
+			- _myState = 8192;
+			- _name = "X";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 5.1.2015::18:44:21;
+			- _lastID = 1;
+			- weakCGTime = 5.1.2015::18:44:21;
+			- strongCGTime = 5.1.2015::18:39:5;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID de5d55a6-f16c-4fbb-b1dc-fa1706bd4f8b;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CPP_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Kind";
+												- _Value = "abstract";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "common,virtual,abstract";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "op";
+					- _modifiedTimeWeak = 5.1.2015::18:44:21;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 68ad0838-149c-41cc-a8a1-56e856da0a32;
+			- _myState = 8192;
+			- _name = "Y";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 5.1.2015::18:40:31;
+			- weakCGTime = 5.1.2015::18:40:31;
+			- strongCGTime = 5.1.2015::18:40:31;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::2:0:0;
+}
+

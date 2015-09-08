@@ -1,0 +1,18 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+
+- filesTable = { IRPYRawContainer 
+	- size = 11;
+	- value = "PaperModels.rpy" ""
+	"PaperModels_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"PaperModels_rpy\\DisconnectedPorts.sbs" "DisconnectedPorts"
+	"PaperModels_rpy\\PortWithMultipleDests.sbs" "PortWithMultipleDests"
+	"PaperModels_rpy\\SampleModel.sbs" "SampleModel"
+	"PaperModels_rpy\\SampleModelCmp.cmp" "SampleModel::SampleModelCmp"
+	"PaperModels_rpy\\SimpleModel.sbs" "SimpleModel"
+	"PaperModels_rpy\\SourceModel.sbs" "SimpleModel::SourceModel"
+	"PaperModels_rpy\\TargetLightWeight.sbs" "SimpleModel::TargetLightWeight"
+	"PaperModels_rpy\\TargetLightWeightWithNullCheck.sbs" "SimpleModel::TargetLightWeightWithNullCheck"
+	"PaperModels_rpy\\TargetRhpDefault.sbs" "SimpleModel::TargetRhpDefault"
+	
+}
+

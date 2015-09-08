@@ -1,0 +1,46 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Figures1.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Figures1";
+		- _id = GUID dfe94981-6f2b-4fd2-99c3-11633f1118d2;
+	}
+	- _id = GUID ff63eeb8-7534-46e7-acc9-e46d6ace6397;
+	- _myState = 8192;
+	- _name = "RhpDefault";
+	- _modifiedTimeWeak = 5.1.2015::19:48:51;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "EcuClsPkgRhpDefault";
+			- _id = GUID 08104e0a-92df-41e1-9599-dcf3f2e33680;
+		}
+	}
+	- weakCGTime = 5.1.2015::19:48:51;
+	- strongCGTime = 5.1.2015::19:48:47;
+	- _defaultComposite = GUID 7523e865-d4fa-431b-b87b-18f8e1997278;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 7523e865-d4fa-431b-b87b-18f8e1997278;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::2:0:0;
+}
+

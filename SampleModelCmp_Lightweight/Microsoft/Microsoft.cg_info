@@ -1,0 +1,127 @@
+I-Logix-RPY-Archive version 8.10.0 * 6930133
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 20;
+	- value = "SampleModelCmp\\Microsoft\\CarCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\CarCls.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\DashboardCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\DashboardCls.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\EcuCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\EcuCls.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\EngineCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\EngineCls.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\GasPedalCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\GasPedalCls.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IIgnition.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IIgnition.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IRpmGauge.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IRpmGauge.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IThrottle.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IThrottle.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IThrottleEcu.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\IThrottleEcu.h" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\ThrottleCls.cpp" 5.1.2015::19:15:28
+	"SampleModelCmp\\Microsoft\\ThrottleCls.h" 5.1.2015::19:15:28
+	
+}
+- size = 11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "ThrottleCls";
+	- _id = GUID 8e4fae20-e370-4d7d-879e-8d5529d95f0a;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "IIgnition";
+	- _id = GUID 3967a4c6-2b1a-4d2c-9849-23be5303d827;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "EngineCls";
+	- _id = GUID f7bdcd36-fb9d-4913-8c3f-9a85b8c3d6b7;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "IThrottle";
+	- _id = GUID 196bb6dd-b2d1-4151-af16-339545a87024;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "EcuCls";
+	- _id = GUID a2ea8f22-1dce-41d6-8725-955b8fff5ef4;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "SampleModel";
+	- _id = GUID 67a539e1-6764-45af-ba48-176c09b47a5d;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "GasPedalCls";
+	- _id = GUID ab310884-0e9d-4ec2-93a6-cc879ffc8cf7;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "CarCls";
+	- _id = GUID 7a53740f-37bc-401a-928d-be8919040493;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "IRpmGauge";
+	- _id = GUID 70909181-298a-4202-8849-1f15ebb9a05a;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "DashboardCls";
+	- _id = GUID 4afee1fe-33be-4660-85c5-fc7917267662;
+}
+- genTime = 5.1.2015::19:15:28;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "SampleModel.sbs";
+	- _subsystem = "SampleModel";
+	- _class = "";
+	- _name = "IThrottleEcu";
+	- _id = GUID a93a7d81-b156-465c-8564-777ff7016347;
+}
+- genTime = 5.1.2015::19:15:28;
+

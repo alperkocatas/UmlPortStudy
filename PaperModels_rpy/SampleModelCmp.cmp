@@ -1,0 +1,130 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IComponent 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "SampleModel.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "SampleModel";
+		- _id = GUID 67a539e1-6764-45af-ba48-176c09b47a5d;
+	}
+	- _id = GUID 9ab005cf-8bc9-4dfd-a52f-39332136db6d;
+	- _myState = 8192;
+	- _name = "SampleModelCmp";
+	- _modifiedTimeWeak = 5.1.2015::19:5:50;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID e806d5eb-c52f-4dc7-abdd-8bc3b4ae5da0;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 5.1.2015::19:5:42;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "SampleModel.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "SampleModel";
+				- _id = GUID 67a539e1-6764-45af-ba48-176c09b47a5d;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID aeb131bc-4a4c-4af0-877e-e49897f07f46;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID aeb131bc-4a4c-4af0-877e-e49897f07f46;
+			- _myState = 8192;
+			- _name = "Microsoft";
+			- _modifiedTimeWeak = 5.1.2015::19:5:57;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID cd399b2f-265d-4957-bd2a-660fc8db2f8c;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\akocatas\\Dropbox\\Thesis_Prj\\PaperModels\\SampleModelCmp\\DefaultConfig\\SampleModelCmp.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 76fecbac-8c3c-4596-8882-833e274fc7fb;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\akocatas\\Dropbox\\Thesis_Prj\\PaperModels\\SampleModelCmp\\DefaultConfig\\MainSampleModelCmp";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID ee2aeef9-58f1-4460-b60e-f301ae68453d;
+				- _myState = 8192;
+				- _name = "Microsoft";
+				- _modifiedTimeWeak = 5.1.2015::19:5:57;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 5.1.2015::19:5:57;
+			- strongCGTime = 5.1.2015::19:5:57;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.1.2015::19:5:50;
+	- strongCGTime = 5.1.2015::19:5:50;
+}
+

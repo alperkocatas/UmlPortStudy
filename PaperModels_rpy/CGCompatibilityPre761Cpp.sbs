@@ -1,0 +1,116 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IProfile 
+	- _id = GUID 0838347a-c933-40e3-9d7e-812acdb081ee;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 3;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "Animation";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Activity";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "ShowFlowToken";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Statechart";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "GenerateActionsAfterJunctionForDefaultTransition";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Activity";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "MeaningfulGuards";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Statechart";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "UsePreviousTimeoutCancellationCode";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "CGCompatibilityPre761Cpp";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _filename = "PredefinedTypes.sbs";
+			- _subsystem = "PredefinedTypes";
+			- _class = "";
+			- _name = "Settings";
+			- _id = GUID c4916b7f-5ca2-41a3-b8a9-6ac22b145b51;
+		}
+	}
+	- _modifiedTimeWeak = 5.1.2015::17:21:48;
+	- weakCGTime = 5.1.2015::17:21:48;
+	- strongCGTime = 11.2.2011::9:48:52;
+	- _defaultComposite = GUID 0fba177f-d8d8-4fb7-ab32-3f5270aa46d3;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 0fba177f-d8d8-4fb7-ab32-3f5270aa46d3;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 11.2.2011::9:48:21;
+			- weakCGTime = 11.2.2011::9:48:21;
+			- strongCGTime = 11.2.2011::9:48:21;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

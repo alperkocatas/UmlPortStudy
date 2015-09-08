@@ -1,0 +1,221 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IComponent 
+	- _id = GUID 961e1d27-4d70-4f4f-aab5-f55e21a4e6f3;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 5.1.2015::17:21:48;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID cb97b9dd-bf5b-4820-a560-d70290fc6cee;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 1.1.1970::2:0:0;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 34f60c9c-1cb6-4a68-8632-11b1364a787a;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 34f60c9c-1cb6-4a68-8632-11b1364a787a;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID fa514725-81b2-4f14-8df9-d1d81fff67bc;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\akocatas\\Dropbox\\Thesis_Prj\\PaperModels\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID bcdef08a-9c54-4136-a6fc-66230b7eccec;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\akocatas\\Dropbox\\Thesis_Prj\\PaperModels\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 40865046-d236-4bb0-bf46-fd85da515a59;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.1.1970::2:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 13;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SampleModel.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SampleModel";
+			- _id = GUID 67a539e1-6764-45af-ba48-176c09b47a5d;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "Pre76GESkin.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Pre76GESkin";
+			- _id = GUID 74a6daed-8619-4275-8f6b-7d1d1d0220b1;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre751Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre751Cpp";
+			- _id = GUID cb7b1c1a-b1ef-481f-9bc8-cb6d89a3848f;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre753Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre753Cpp";
+			- _id = GUID 6d9087a8-4853-4759-a797-277df26481c2;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre76Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre76Cpp";
+			- _id = GUID 38e0ad24-bc5e-45a0-9df2-1d0a857d19ad;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre761Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre761Cpp";
+			- _id = GUID 0838347a-c933-40e3-9d7e-812acdb081ee;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre80Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre80Cpp";
+			- _id = GUID cdc61ea8-5d48-43f9-9f97-af672c36c918;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre803Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre803Cpp";
+			- _id = GUID 2c6673a1-7843-43a4-92d5-93795ef7e229;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre804Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre804Cpp";
+			- _id = GUID 17b86635-8a53-4a10-9901-f57883be4aa2;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre805Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre805Cpp";
+			- _id = GUID a32649f4-8029-4846-82f3-6deba65e416d;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre806Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre806Cpp";
+			- _id = GUID ebf790f8-a405-40ba-af1e-eeb76a25e1d0;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre81Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre81Cpp";
+			- _id = GUID dcd2cdb5-4c74-4d47-99ca-1b358b271e5f;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "package_1.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "package_1";
+			- _id = GUID dfe94981-6f2b-4fd2-99c3-11633f1118d2;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 5.1.2015::17:21:48;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

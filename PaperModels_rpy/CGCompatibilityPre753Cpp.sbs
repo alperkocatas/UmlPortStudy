@@ -1,0 +1,121 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ IProfile 
+	- _id = GUID 6d9087a8-4853-4759-a797-277df26481c2;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 2;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Type";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "UseClassOrderSetting";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 4;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Cygwin";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "AnimInstLibs";
+								- _Value = "$(OMROOT)/LangCpp/lib/cygwinaomanim$(LIB_EXT)";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Port";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "OptimizeCode";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Statechart";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "GenerateActionOnExitOrderForNestedStatechartOldWay";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "flowPort";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "OptimizeCode";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "CGCompatibilityPre753Cpp";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _filename = "PredefinedTypes.sbs";
+			- _subsystem = "PredefinedTypes";
+			- _class = "";
+			- _name = "Settings";
+			- _id = GUID c4916b7f-5ca2-41a3-b8a9-6ac22b145b51;
+		}
+	}
+	- _modifiedTimeWeak = 5.1.2015::17:21:48;
+	- weakCGTime = 5.1.2015::17:21:48;
+	- strongCGTime = 10.31.2010::11:6:41;
+	- _defaultComposite = GUID 7aa30fca-1092-4d1c-851d-773cb76bd365;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 7aa30fca-1092-4d1c-851d-773cb76bd365;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.31.2010::11:0:7;
+			- weakCGTime = 10.31.2010::11:0:7;
+			- strongCGTime = 10.31.2010::11:0:7;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

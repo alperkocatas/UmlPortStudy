@@ -5,13 +5,13 @@ I-Logix-RPY-Archive version 8.10.0 * 6930133
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 1;
+		- size = 3;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -30,13 +30,69 @@ I-Logix-RPY-Archive version 8.10.0 * 6930133
 				- _name = "objectmodeldiagram_2";
 				- _id = GUID 330b0341-5ec4-4904-bdab-64326ea505ec;
 			}
-			- _UpLeft = 57 96 ;
-			- _DownRight = 394 328 ;
+			- _UpLeft = 26 0 ;
+			- _DownRight = 525 1341 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 1122;
+				- m_nBottom = 733;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "SampleModel.sbs";
+				- _subsystem = "SampleModel";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID e823e624-63ed-4232-960f-927d579f1115;
+			}
+			- _UpLeft = 33 186 ;
+			- _DownRight = 548 553 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 50;
+				- m_nTop = 50;
+				- m_nRight = 1097;
+				- m_nBottom = 708;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "TargetRhpDefault.sbs";
+				- _subsystem = "SimpleModel::TargetRhpDefault";
+				- _class = "";
+				- _name = "TargetModelRhpDefault";
+				- _id = GUID 45abf448-0cb4-49ba-86ea-deaebb65ded0;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 3122 1852 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
 	}
-	- _fullName = "D:\\Documents\\rhapsody_projects\\PaperModels_modelsward_version\\PaperModels";
+	- _fullName = "C:\\Users\\akocatas\\Dropbox\\Thesis\\2015.30.04_Paper\\Modelsward Version\\Model\\PaperModels_modelsward_version\\PaperModels";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}

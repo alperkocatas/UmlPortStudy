@@ -58,8 +58,8 @@ I-Logix-RPY-Archive version 8.10.0 * 6930133
 				- _name = "Model1";
 				- _id = GUID e823e624-63ed-4232-960f-927d579f1115;
 			}
-			- _UpLeft = 33 186 ;
-			- _DownRight = 548 553 ;
+			- _UpLeft = 0 176 ;
+			- _DownRight = 771 725 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
